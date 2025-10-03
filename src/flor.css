@@ -20,6 +20,8 @@ body {
   perspective: 1000px;
 }
 
+
+
 #lyrics {
   font-size: 28px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -30,17 +32,24 @@ body {
   font-weight: bold;
   letter-spacing: 4px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       font-size: 13px; /* Reduce el tamaño del texto para dispositivos más pequeños */
-      font-family:Bodoni MT;
-      margin-bottom: 700px;
+      font-family: 10px;
+      margin-bottom: 800px;
       letter-spacing: 3px;
+      margin-left: 10px;
+      margin-right: 10px;
   }
 
   .titulo{
-    font-size: 20px;
+    font-size: 15px;
+    margin-bottom: 10%;
+    position: absolute;
   }
 
 }
@@ -119,9 +128,9 @@ body {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
 .flowers {
       font-size: 14px;
-      margin-bottom: 35%;
+      margin-bottom: 85%;
       letter-spacing: 3px;
-      transform: scale(1.0);
+      transform: scale(0.9);
 }
 
 }
